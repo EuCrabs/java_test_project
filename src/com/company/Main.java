@@ -60,5 +60,17 @@ public class Main {
         String str = "Hello World!";
         System.out.println(str);
 
+        //Java Type Casting
+        //Widening
+        int intToDouble = 9;
+        double w_casting = intToDouble;
+        System.out.println(intToDouble);
+        System.out.println(w_casting);
+
+        //Narrowing
+        double doubleToInt = 9.09;
+        int n_casting = (int) doubleToInt;
+        System.out.println(doubleToInt);
+        System.out.println(n_casting);
     }
 }
