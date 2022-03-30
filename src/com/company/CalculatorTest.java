@@ -19,4 +19,10 @@ class CalculatorTest {
                 () -> assertEquals(4, Calculator.multiply(-2, -2)),
                 () -> assertEquals(5, Calculator.multiply(2.5, 2)));
     }
+
+    @Test
+    @DisplayName("Second test")
+    void testMultiply() {
+        assertEquals(4, Calculator.multiply(2,2));
+    }
 }
