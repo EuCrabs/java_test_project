@@ -59,5 +59,6 @@ public class Main {
         // String is a non-primitive data type
         String str = "Hello World!";
         System.out.println(str);
+
     }
 }
