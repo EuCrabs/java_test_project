@@ -4,8 +4,12 @@ public class Main {
     public static void main(String[] args) {
 
         // 1.5
-        OneFive.strings();
+        //OneFive.strings();
 
+        // 1.6
+        //OneSixSeven.multiplication();
 
+        //1.7
+        OneSixSeven.rect();
     }
 }
