@@ -1,8 +1,11 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class OneSixSeven {
     public static int[][] MULTIPLICATION_TABLE;
     public static int[][] result = new int[10][];
+    public static int[][] multiArray;
 
     static void multiplication() {
         MULTIPLICATION_TABLE = new int[10][10];
@@ -26,6 +29,18 @@ public class OneSixSeven {
                 System.out.print(" ");
             }
             System.out.println();
+        }
+    }
+
+    static void multiArr() {
+        Scanner scanner = new Scanner(System.in);
+
+        int n = Integer.parseInt(scanner.nextLine());
+
+        multiArray = new int[n][];
+        for (int i = 0; i < n; i++) {
+            int size = Integer.parseInt(scanner.nextLine());
+            multiArray[i] = new int[size];
         }
     }
 }

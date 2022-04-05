@@ -10,6 +10,7 @@ public class Main {
         //OneSixSeven.multiplication();
 
         //1.7
-        OneSixSeven.rect();
+        //OneSixSeven.rect();
+        OneSixSeven.multiArr();
     }
 }
