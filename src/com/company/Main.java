@@ -11,6 +11,9 @@ public class Main {
 
         //1.7
         //OneSixSeven.rect();
-        OneSixSeven.multiArr();
+        //OneSixSeven.multiArr();
+
+        //1.8
+        OneEight.classArrays();
     }
 }
